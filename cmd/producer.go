@@ -2,7 +2,7 @@ package cmd
 
 import (
 	"github.com/spf13/cobra"
-	"github.com/willjrcom/kafka-golang/producer"
+	producer "github.com/willjrcom/kafka-golang/internal/producer_ibm"
 )
 
 // producerCmd represents the base command when called without any subcommands

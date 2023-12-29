@@ -5,7 +5,7 @@ package cmd
 
 import (
 	"github.com/spf13/cobra"
-	"github.com/willjrcom/kafka-golang/consumer"
+	consumer "github.com/willjrcom/kafka-golang/internal/consumer_ibm"
 )
 
 // consumerCmd represents the consumer command
